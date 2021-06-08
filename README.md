@@ -1,7 +1,9 @@
  -=-=-=- Compile -=-=-=-
+    
     > gcc pagerank.c -o pagerank –pthread
     
  -=-=-=- Run -=-=-=-
+    
     > ./pagerank <filename> -t <number_of_threads>
     
     filename should be a text file where each line contains two integers
